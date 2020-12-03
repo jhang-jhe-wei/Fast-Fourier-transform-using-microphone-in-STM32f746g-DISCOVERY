@@ -1,13 +1,13 @@
 # Fast Fourier transform using microphone in STM32f746g-DISCOVERY
 ## Introduction
-  ![](https://i.imgur.com/D3iZ376.png)
+  ![](https://i.imgur.com/O3oZoqj.png)
 ## Functions
-  - USER LED OFF after booting
-  - After pressing the USER BUTTON, the USER LED flashes at a speed of 1 hz, and COM
-Port and LCD screen send out the string "LED FLASH =1/r/n".
-  - After pressing the USER BUTTON again, the USER LED is OFF and stops blinking.COM Port and LCD screen send the string "LED FLASH =0/r/n".
-  - Press USER BUTTON to interactively control whether the USR LED flashes or not.
-  - COM Port parameters: 9600 bps, 8 Bit data, None parity, 1 stop Bit
+1. Read the digital microphone signal and display the signal on the horizontal axis of the screen:Between 0~130.
+2. Digital microphone sampling frequency setting 8kHz.
+3. FFT the digital microphone signal and display it on the horizontal axis of the screen:Between 140~270.
+4. The frequency display range is 0~4kHz.
+5. When you touch the microphone signal axis screen, you can start or stop reading Microphone signal.
+6. When the FFT frequency axis screen is touched by hand, the frequency number is displayed in the upper right corner Value and power.
 ## Video
   [![Fast Fourier transform using microphone in STM32f746g-DISCOVERY](https://i.imgur.com/eCPdes8.png)](https://www.youtube.com/watch?v=NJCQbo03_Y8)
 ## Environment
