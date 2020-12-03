@@ -9,7 +9,7 @@ Port and LCD screen send out the string "LED FLASH =1/r/n".
   - Press USER BUTTON to interactively control whether the USR LED flashes or not.
   - COM Port parameters: 9600 bps, 8 Bit data, None parity, 1 stop Bit
 ## Video
-  [![Using button control LCD/LED in STM32f746g-DISCOVERY](https://i.imgur.com/3ptjGlu.jpg)](https://youtu.be/cr1C7mOcJQ0)
+  [![Fast Fourier transform using microphone in STM32f746g-DISCOVERY](https://i.imgur.com/eCPdes8.png)](https://www.youtube.com/watch?v=NJCQbo03_Y8)
 ## Environment
   - EVB:  STM32f746g-DISCOVERY    
   - IDE:  keil5 with MXcube  
