@@ -17,6 +17,6 @@
   - download keil and compiler project
   - load into the STM32f746g-DISCOVERY 
 ## Other
-
+  The fft part is not accurate. If you want to use the suggested correction.
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
